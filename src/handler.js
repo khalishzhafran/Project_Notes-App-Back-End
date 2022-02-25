@@ -58,6 +58,7 @@ const getNoteByIdHandler = (request, h) => {
     if (note !== undefined) {
         return {
             status: "success",
+            message: "Catatan berhasil ditemukan",
             data: {
                 note,
             },
